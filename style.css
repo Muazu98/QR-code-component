@@ -1,0 +1,90 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(220, 15%, 55%);
+  overflow: hidden;
+}
+
+
+.card{
+  background:  hsl(0, 0%, 100%);
+  width: 300px;
+  height: 450px;
+  margin: 90px auto;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.qr-code{
+  max-width: 250px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: hsl(218, 44%, 22%);
+}
+
+.qr-text{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  width: 77%;
+}
+
+.qr-text h3{
+  font-family: "Outfit";
+  color: hsl(218, 44%, 22%);
+  font-weight:bolder;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.qr-text p{
+  font-family: "Outfit";
+  color: hsl(212, 45%, 89%);
+  font-weight:400;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media(max-width:678px){
+
+
+
+
+  .card{
+    background:  hsl(0, 0%, 100%);
+    width: 320px;
+    height: 500px;
+    margin: 80px auto;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 15px;
+  }
+  .qr-code{
+    max-width: 290px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: hsl(218, 44%, 22%);
+  }
+  .qr-text{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    width: 75%;
+  }
+
+}
